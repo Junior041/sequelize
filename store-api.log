@@ -1,0 +1,255 @@
+2022-11-21T23:50:01.421Z [store-api] error  GET  - conn.release is not a function
+2022-11-21T23:50:01.920Z [store-api] error  GET  - conn.release is not a function
+2022-11-21T23:50:02.098Z [store-api] error  GET  - conn.release is not a function
+2022-11-21T23:50:02.263Z [store-api] error  GET  - conn.release is not a function
+2022-11-21T23:50:02.441Z [store-api] error  GET  - conn.release is not a function
+2022-11-21T23:50:02.601Z [store-api] error  GET  - conn.release is not a function
+2022-11-21T23:50:02.763Z [store-api] error  GET  - conn.release is not a function
+2022-11-21T23:50:02.941Z [store-api] error  GET  - conn.release is not a function
+2022-11-21T23:50:03.116Z [store-api] error  GET  - conn.release is not a function
+2022-11-21T23:50:03.282Z [store-api] error  GET  - conn.release is not a function
+2022-11-21T23:50:03.448Z [store-api] error  GET  - conn.release is not a function
+2022-11-21T23:50:03.605Z [store-api] error  GET  - conn.release is not a function
+2022-11-21T23:50:03.758Z [store-api] error  GET  - conn.release is not a function
+2022-11-21T23:50:03.931Z [store-api] error  GET  - conn.release is not a function
+2022-11-22T00:13:24.342Z [store-api] info DELETE /client {"id":"13"}
+2022-11-22T01:26:20.522Z [store-api] error  PUT  - Parametro ID obrigadotio
+2022-11-22T01:26:36.537Z [store-api] info PUT /client {"id":15,"name":"ISMAEL","cpf":"712.878.159-04","phone":"993265878","email":"reositabresisani@gmail.com","address":"Rua Daniel Barni, n 40"}
+2022-11-22T01:27:05.507Z [store-api] info PUT /client {"id":18,"name":"ISMAEL","cpf":"712.878.159-04","phone":"993265878","email":"reositabresisani@gmail.com","address":"Rua Daniel Barni, n 40"}
+2022-11-22T01:32:19.261Z [store-api] error  GET  - res.rows is not a function
+2022-11-22T01:32:52.424Z [store-api] error  GET  - res.rows is not a function
+2022-11-22T01:34:44.702Z [store-api] info PUT /client {"id":14,"name":"teste","cpf":"712.878.159-04","phone":"993265878","email":"reositabresisani@gmail.com","address":"Rua Daniel Barni, n 40"}
+2022-11-22T01:50:59.001Z [store-api] info POST /client {"name":"Olegario Motors","cpf":"85.418.145/0001-60","phone":"47998569869","email":"olegariomotorts@gmail.com","address":"Rua Indaial Souza, n 80"}
+2022-11-22T01:52:12.870Z [store-api] error  POST  - Name, CNPJ, Phone, Email e Addres são obrigatorios. 
+2022-11-22T01:52:22.721Z [store-api] info POST /supplier {"name":"Olegario Motors","cnpj":"85.418.145/0001-60","phone":"47998569869","email":"olegariomotorts@gmail.com","address":"Rua Indaial Souza, n 80"}
+2022-11-22T01:53:09.708Z [store-api] info PUT /supplier {"id":1,"name":"Fachi Motors","cnpj":"85.418.145/0001-60","phone":"47998896987","email":"fachimotors@gmail.com","address":"Rua Brusque Jorge, n 40"}
+2022-11-22T13:58:27.638Z [store-api] error  POST  - relation "products" does not exist
+2022-11-22T13:59:19.978Z [store-api] error  GET  - relation "products" does not exist
+2022-11-22T13:59:53.149Z [store-api] error  GET  - relation "product" does not exist
+2022-11-22T13:59:53.962Z [store-api] error  GET  - relation "product" does not exist
+2022-11-22T17:40:14.713Z [store-api] error  POST  - Name, description, value, stock e supplier_id são obrigatorios. 
+2022-11-22T17:40:49.986Z [store-api] info POST /client {"name":"Ismael Antonio da Silva Junior","cpf":"076.878.159-04","phone":"991239346","email":"ismaeljunior1508@gmail.com","address":"Rua Daniel Barni, N 40"}
+2022-11-22T17:42:26.814Z [store-api] info POST /client {"name":"Rosita Maria Bressiani Da Silva","cpf":"712.605.879-91","phone":"996082371","email":"rositabressiani@gmail.com","address":"Rua Daniel Barni, N 40"}
+2022-11-22T17:44:40.311Z [store-api] info PUT /client {"id":1,"name":"Rosita Maria Bressiani Da Silva","cpf":"712.605.879-91","phone":"996082371","email":"rositabressiani@gmail.com","address":"Rua Daniel Barni, N 80"}
+2022-11-22T17:56:52.683Z [store-api] info POST /supplier {"name":"Olegario Motors","cnpj":"33.194.173/0001-47","phone":"4733553446","email":"olegario@gmail.com","address":"Rua Indaial, N 96"}
+2022-11-22T17:57:32.680Z [store-api] info POST /supplier {"name":"Fachi Motors","cnpj":"33.194.173/0001-47","phone":"4732125936","email":"fachi@gmail.com","address":"Rua Blumenau, N 88"}
+2022-11-22T17:58:00.291Z [store-api] info PUT /supplier {"id":1,"name":"Fachi Motors","cnpj":"33.194.173/0001-47","phone":"4732125937","email":"fachi@gmail.com","address":"Rua Blumenau, N 88"}
+2022-11-22T17:58:27.823Z [store-api] info PUT /supplier {"id":1,"name":"Fachi Motors","cnpj":"33.194.173/0001-42","phone":"4732125937","email":"fachi@gmail.com","address":"Rua Blumenau, N 88"}
+2022-11-22T17:58:57.844Z [store-api] info PUT /supplier {"id":1,"name":"Olegario Motors","cnpj":"33.194.173/0001-41","phone":"4733553446","email":"olegario@gmail.com","address":"Rua Indaial, N 88"}
+2022-11-22T18:04:33.440Z [store-api] error  PUT  - relation "product" does not exist
+2022-11-22T18:55:50.413Z [store-api] error  PUT  - relation "product" does not exist
+2022-11-22T18:56:32.064Z [store-api] error  POST  - relation "product" does not exist
+2022-11-22T18:57:45.077Z [store-api] info POST /product {"name":"Nootebook ASUS I3-9100F","description":"Nootebook, 12GB RAM, 256GB SSD.","value":3599,"stock":10,"supplier_id":1}
+2022-11-22T18:58:01.269Z [store-api] info PUT /product {"id":1,"name":"Nootebook ASUS I3-9100F","description":"Nootebook, 12GB RAM, 256GB SSD.","value":3599,"stock":10,"supplier_id":2}
+2022-11-22T18:58:37.250Z [store-api] error  POST  - insert or update on table "products" violates foreign key constraint "dk_suppliers"
+2022-11-22T19:17:56.621Z [store-api] error  POST  - insert or update on table "products" violates foreign key constraint "dk_suppliers"
+2022-11-22T19:18:18.048Z [store-api] error  POST  - O supplier_id informado nao existe
+2022-11-22T19:21:53.685Z [store-api] error  PUT  - O supplier_id informado não existe!
+2022-11-22T19:22:00.498Z [store-api] error  PUT  - O supplier_id informado não existe!
+2022-11-22T19:22:48.757Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:22:54.114Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:22:55.647Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:22:56.440Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:23:31.707Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:23:44.154Z [store-api] error  PUT  - O supplier_id informado não existe!
+2022-11-22T19:23:52.915Z [store-api] error  PUT  - O supplier_id informado não existe!
+2022-11-22T19:25:06.709Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:25:10.973Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:25:11.917Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:25:12.365Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:25:12.732Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:25:12.973Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:25:13.180Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:25:13.318Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:25:13.492Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:25:13.666Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:25:13.836Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:25:59.821Z [store-api] error  PUT  - O product_id informado não existe!
+2022-11-22T19:53:27.219Z [store-api] info POST /sale {"value":"4000","date":"11/08/2022","client_id":1,"product_id":1}
+2022-11-22T19:53:47.874Z [store-api] error  POST  - insert or update on table "sales" violates foreign key constraint "fk_products"
+2022-11-22T19:53:53.013Z [store-api] error  POST  - insert or update on table "sales" violates foreign key constraint "fk_clients"
+2022-11-22T20:03:14.823Z [store-api] info DELETE /sale {"id":"1"}
+2022-11-22T20:03:30.062Z [store-api] info POST /sale {"value":4000,"date":"11/08/2022","client_id":1,"product_id":1}
+2022-11-22T20:08:30.676Z [store-api] info POST /sale {"value":4000,"date":"11/08/2022","client_id":1,"product_id":1}
+2022-11-22T20:16:15.733Z [store-api] error  POST  - O client_id informado não existe
+2022-11-22T20:18:28.046Z [store-api] error  POST  - Cannot read properties of undefined (reading 'id')
+2022-11-22T20:18:45.463Z [store-api] error  POST  - Cannot read properties of undefined (reading 'id')
+2022-11-22T20:21:20.178Z [store-api] error  POST  - Cannot read properties of undefined (reading 'id')
+2022-11-22T20:21:37.994Z [store-api] error  POST  - Cannot read properties of undefined (reading 'id')
+2022-11-22T20:22:09.944Z [store-api] error  POST  - Cannot read properties of undefined (reading 'id')
+2022-11-22T20:22:47.490Z [store-api] error  POST  - Cannot read properties of undefined (reading 'id')
+2022-11-22T20:23:12.785Z [store-api] error  POST  - Cannot read properties of undefined (reading 'id')
+2022-11-22T20:23:53.582Z [store-api] error  POST  - O client_id informado não existe,O product_id informado não existe
+2022-11-22T20:24:03.979Z [store-api] error  POST  - O client_id informado não existe, O product_id informado não existe
+2022-11-22T20:33:07.008Z [store-api] error  POST  - O client_id informado não existe O product_id informado não existe
+2022-11-22T20:33:55.481Z [store-api] error  PUT  - O client_id informado não existe. O product_id informado não existe.
+2022-11-22T20:47:50.141Z [store-api] info DELETE /sale {"id":"4"}
+2022-11-22T20:47:53.818Z [store-api] info DELETE /sale {"id":"5"}
+2022-11-22T20:48:17.436Z [store-api] error  POST  - O client_id informado não existe.
+2022-11-22T20:48:49.869Z [store-api] error  POST  - O client_id informado não existe.
+2022-11-22T20:48:53.198Z [store-api] error  POST  - O client_id informado não existe.
+2022-11-24T17:16:39.284Z [store-api] info POST /client {"name":"Rosita Maria Bressiani Da Silva","cpf":"712.605.879-91","phone":"996082371","email":"rositabressiani@gmail.com","address":"Rua Daniel Barni, N 40"}
+2022-11-24T17:16:46.333Z [store-api] info PUT /client {"id":3,"name":"JOJO Maria Bressiani Da Silva","cpf":"712.605.879-91","phone":"996082371","email":"rositabressiani@gmail.com","address":"Rua Daniel Barni, N 80"}
+2022-11-24T17:16:54.688Z [store-api] info DELETE /client {"id":"3"}
+2022-11-24T17:17:42.151Z [store-api] info DELETE /product {"id":"4"}
+2022-11-24T17:17:49.983Z [store-api] error  POST  - O supplier_id informado não existe!
+2022-11-24T17:18:03.587Z [store-api] info POST /supplier {"name":"teste Motors","cnpj":"33.194.173/0001-47","phone":"4732125936","email":"fachi@gmail.com","address":"Rua Blumenau, N 88"}
+2022-11-24T17:18:12.632Z [store-api] info DELETE /supplier {"id":"3"}
+2022-11-24T17:19:12.460Z [store-api] info POST /product {"name":"Monitor","description":"Monitor Samsung.","value":233,"stock":10,"supplier_id":2}
+2022-11-24T17:19:18.401Z [store-api] info POST /product {"name":"Monitor","description":"Monitor Samsung.","value":233,"stock":10,"supplier_id":2}
+2022-11-24T17:19:24.893Z [store-api] error  PUT  - O supplier_id informado não existe!
+2022-11-24T17:19:58.435Z [store-api] info PUT /product {"id":6,"name":"Nootebook ASUS I3-9100F","description":"Nootebook, 12GB RAM, 256GB SSD.","value":3599,"stock":10,"supplier_id":1}
+2022-11-24T17:23:19.426Z [store-api] error  POST  - O client_id informado não existe.
+2022-11-24T17:24:04.230Z [store-api] error  POST  - O client_id informado não existe.
+2022-11-24T17:24:06.365Z [store-api] error  POST  - O client_id informado não existe.
+2022-11-24T17:24:37.148Z [store-api] error  POST  - O produto informado nao possui estoque.
+2022-11-24T17:24:57.830Z [store-api] error  POST  - O produto informado nao possui estoque.
+2022-11-24T17:25:13.093Z [store-api] error  POST  -  O product_id informado não existe.
+2022-11-24T17:25:56.477Z [store-api] error  POST  -  O product_id informado não existe.
+2022-11-24T17:26:16.866Z [store-api] error  POST  -  O product_id informado não existe.
+2022-11-24T17:26:54.626Z [store-api] error  POST  -  O product_id informado não existe.
+2022-11-24T17:30:58.459Z [store-api] error  POST  - Cannot access 'sale' before initialization
+2022-11-24T17:31:31.727Z [store-api] error  POST  - Cannot access 'sale' before initialization
+2022-11-24T17:32:39.578Z [store-api] error  POST  - Cannot access 'sale' before initialization
+2022-11-24T17:33:22.625Z [store-api] error  POST  - Cannot access 'sale' before initialization
+2022-11-24T17:33:47.224Z [store-api] error  POST  - Cannot access 'sale' before initialization
+2022-11-24T17:34:40.515Z [store-api] error  POST  - Cannot access 'sale' before initialization
+2022-11-24T17:34:41.612Z [store-api] error  POST  - Cannot access 'sale' before initialization
+2022-11-24T17:35:06.386Z [store-api] error  POST  - Cannot access 'sale' before initialization
+2022-11-24T17:35:13.325Z [store-api] error  POST  - Cannot access 'sale' before initialization
+2022-11-24T17:36:02.953Z [store-api] error  POST  - Cannot access 'sale' before initialization
+2022-11-24T17:36:13.641Z [store-api] error  POST  - Cannot access 'sale' before initialization
+2022-11-24T17:36:14.664Z [store-api] error  POST  - Cannot access 'sale' before initialization
+2022-11-24T17:36:15.391Z [store-api] error  POST  - Cannot access 'sale' before initialization
+2022-11-24T17:37:46.665Z [store-api] error  POST  - Cannot access 'sale' before initialization
+2022-11-24T17:38:58.827Z [store-api] error  POST  - Cannot read properties of undefined (reading 'value')
+2022-11-24T17:39:04.704Z [store-api] error  POST  - Cannot access 'sale' before initialization
+2022-11-24T17:42:07.740Z [store-api] info POST /sale {"client_id":1,"value":4000,"date":"11/08/2022","product_id":5}
+2022-11-24T17:43:42.731Z [store-api] error  PUT  - O client_id informado não existe. O product_id informado não existe.
+2022-11-24T17:43:53.795Z [store-api] info POST /sale {"client_id":1,"value":4000,"date":"11/08/2022","product_id":5}
+2022-11-24T18:02:29.447Z [store-api] info POST /client {"name":"Rosita Maria Bressiani Da Silva","cpf":"712.605.879-91","phone":"996082371","email":"rositabressiani@gmail.com","address":"Rua Daniel Barni, N 40"}
+2022-11-24T18:02:39.197Z [store-api] info PUT /client {"id":3,"name":"JOJO Maria Bressiani Da Silva","cpf":"712.605.879-91","phone":"996082371","email":"rositabressiani@gmail.com","address":"Rua Daniel Barni, N 80"}
+2022-11-24T18:02:44.438Z [store-api] info PUT /client {"id":3,"name":"JOJO Maria Bressiani Da Silva","cpf":"712.605.879-91","phone":"996082371","email":"rositabressiani@gmail.com","address":"Rua Daniel Barni, N 80"}
+2022-11-24T18:02:51.766Z [store-api] info PUT /client {"id":1,"name":"JOJO Maria Bressiani Da Silva","cpf":"712.605.879-91","phone":"996082371","email":"rositabressiani@gmail.com","address":"Rua Daniel Barni, N 80"}
+2022-11-24T18:02:58.586Z [store-api] info PUT /client {"id":1,"name":"Maria Bressiani Da Silva","cpf":"712.605.879-91","phone":"996082371","email":"rositabressiani@gmail.com","address":"Rua Daniel Barni, N 80"}
+2022-11-24T18:03:46.025Z [store-api] info POST /supplier {"name":"Samsung LTDA","cnpj":"33.194.173/0001-47","phone":"4732125936","email":"samsung@gmail.com","address":"Rua Blumenau, N 88"}
+2022-11-24T18:03:53.593Z [store-api] info PUT /supplier {"id":1,"name":"Olegario Motors","cnpj":"33.194.173/0001-41","phone":"4733553446","email":"olegario@gmail.com","address":"Rua Indaial, N 88"}
+2022-11-24T18:04:03.754Z [store-api] info PUT /supplier {"id":1,"name":"Samsung Motors","cnpj":"33.194.173/0001-41","phone":"4733553446","email":"samsung@gmail.com","address":"Rua Indaial, N 88"}
+2022-11-24T18:04:12.245Z [store-api] error  POST  - column "name" of relation "products" does not exist
+2022-11-24T18:07:35.312Z [store-api] info POST /product {"name":"Monitor Samsung","description":"Monitor Samsung 27 polegadas.","value":1.5,"stock":10,"supplier_id":1}
+2022-11-24T18:07:59.457Z [store-api] info PUT /product {"id":1,"name":"Monitor Samsung","description":"Monitor Samsung 27 polegadas.","value":1500,"stock":10,"supplier_id":1}
+2022-11-24T18:09:22.621Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:19:25.316Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:19:43.699Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:19:55.505Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:20:12.864Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:20:29.599Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:20:55.020Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:20:58.213Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:21:12.016Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:21:19.384Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:21:27.092Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:21:55.203Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:22:03.686Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:22:20.915Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:29:12.998Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:29:31.879Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:30:00.419Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-24T18:30:12.354Z [store-api] info PUT /product {"id":1,"name":"Monitor Samsung","description":"Monitor Samsung 27 polegadas.","value":1500,"stock":10,"supplier_id":1}
+2022-11-24T18:30:13.109Z [store-api] info PUT /product {"id":1,"name":"Monitor Samsung","description":"Monitor Samsung 27 polegadas.","value":1500,"stock":10,"supplier_id":1}
+2022-11-24T18:30:13.388Z [store-api] info PUT /product {"id":1,"name":"Monitor Samsung","description":"Monitor Samsung 27 polegadas.","value":1500,"stock":10,"supplier_id":1}
+2022-11-24T18:30:13.562Z [store-api] info PUT /product {"id":1,"name":"Monitor Samsung","description":"Monitor Samsung 27 polegadas.","value":1500,"stock":10,"supplier_id":1}
+2022-11-24T18:30:13.773Z [store-api] info PUT /product {"id":1,"name":"Monitor Samsung","description":"Monitor Samsung 27 polegadas.","value":1500,"stock":10,"supplier_id":1}
+2022-11-24T18:30:13.929Z [store-api] info PUT /product {"id":1,"name":"Monitor Samsung","description":"Monitor Samsung 27 polegadas.","value":1500,"stock":10,"supplier_id":1}
+2022-11-24T18:30:14.090Z [store-api] info PUT /product {"id":1,"name":"Monitor Samsung","description":"Monitor Samsung 27 polegadas.","value":1500,"stock":10,"supplier_id":1}
+2022-11-24T18:32:56.280Z [store-api] error  PUT  - ID,Name, description, value, stock e supplier_id são obrigatorios. 
+2022-11-24T18:33:05.868Z [store-api] error  PUT  - ID,Name, description, value, stock e supplier_id são obrigatorios. 
+2022-11-24T18:33:28.447Z [store-api] info PUT /product {"product_id":1,"name":"Monitor Samsung","description":"Monitor Samsung 27 polegadas.","value":1800,"stock":10,"supplier_id":1}
+2022-11-24T18:33:47.775Z [store-api] info POST /sale {"client_id":1,"value":1500,"date":"11/08/2022","product_id":1}
+2022-11-25T00:29:51.666Z [store-api] error  POST  - O supplier_id informado não existe!
+2022-11-25T00:30:05.582Z [store-api] info POST /product {"name":"Celular samgung","description":"Celular Samsung.","value":3599,"stock":1,"supplier_id":1}
+2022-11-25T00:30:38.372Z [store-api] info POST /sale {"client_id":1,"value":3599,"date":"11/08/2022","product_id":2}
+2022-11-25T00:30:49.655Z [store-api] error  POST  - O produto informado nao possui estoque.
+2022-11-25T00:39:17.232Z [store-api] error  DELETE  - Cannot read properties of undefined (reading 'product_id')
+2022-11-25T00:40:46.257Z [store-api] error  DELETE  - Cannot read properties of undefined (reading 'product_id')
+2022-11-25T00:40:59.294Z [store-api] error  DELETE  - Cannot read properties of undefined (reading 'product_id')
+2022-11-25T00:44:09.361Z [store-api] info DELETE /sale {"sale_id":"6"}
+2022-11-25T00:44:26.246Z [store-api] info DELETE /sale {"sale_id":"6"}
+2022-11-25T00:45:12.272Z [store-api] info DELETE /sale {"sale_id":"6"}
+2022-11-25T00:47:18.066Z [store-api] info DELETE /sale {"sale_id":"6"}
+2022-11-25T00:47:23.654Z [store-api] info DELETE /sale {"sale_id":"6"}
+2022-11-25T00:48:15.436Z [store-api] info DELETE /sale {"sale_id":"6"}
+2022-11-25T00:49:11.716Z [store-api] info DELETE /sale {"sale_id":"6"}
+2022-11-25T00:49:43.269Z [store-api] error  DELETE  - Id do sale informado nao existe.
+2022-11-25T00:56:56.181Z [store-api] info POST /sale {"client_id":1,"value":3599,"date":"11/08/2022","product_id":2}
+2022-11-25T00:57:12.335Z [store-api] info DELETE /sale {"sale_id":"7"}
+2022-11-25T01:04:29.689Z [store-api] error  PUT  - O client_id informado não existe. O product_id informado não existe.
+2022-11-25T01:04:38.463Z [store-api] error  PUT  - O client_id informado não existe. O product_id informado não existe.
+2022-11-25T01:04:44.727Z [store-api] error  PUT  - O client_id informado não existe. O product_id informado não existe.
+2022-11-25T01:05:11.538Z [store-api] error  PUT  - could not determine data type of parameter $4
+2022-11-25T01:07:46.234Z [store-api] error  PUT  - ID,value, date, client_id são obrigatorios. 
+2022-11-25T01:08:33.626Z [store-api] info PUT /sale {"sale_id":1,"value":1000,"date":"11/08/2022","client_id":1,"product_id":2}
+2022-11-25T01:10:57.060Z [store-api] info PUT /sale {"sale_id":1,"value":1000,"date":"11/08/2022","client_id":1,"product_id":2}
+2022-11-25T01:11:07.737Z [store-api] error  PUT  - Nao e possivel mudar o id de uma Sale
+2022-11-25T01:25:22.333Z [store-api] error  GET  - syntax error at or near "WHERE"
+2022-11-25T01:26:15.332Z [store-api] error  GET  - syntax error at or near "WHERE"
+2022-11-25T01:27:13.122Z [store-api] error  GET  - sale is not defined
+2022-11-25T01:27:29.770Z [store-api] info POST /sale {"client_id":1,"value":3599,"date":"11/08/2022","product_id":2}
+2022-11-25T12:17:30.082Z [store-api] error  GET  - connect is not a function
+2022-11-25T14:53:39.166Z [store-api] error  GET  - connect is not a function
+2022-11-25T14:55:19.255Z [store-api] error  GET  - connect is not a function
+2022-11-25T16:40:06.164Z [store-api] error  GET  - connect is not a function
+2022-11-25T16:42:16.505Z [store-api] error  GET  - connect is not defined
+2022-11-25T16:42:50.854Z [store-api] error  GET  - connect is not defined
+2022-11-25T16:43:02.372Z [store-api] error  GET  - connect is not defined
+2022-11-25T16:43:19.234Z [store-api] error  GET  - connect is not defined
+2022-11-25T16:44:25.839Z [store-api] error  GET  - connect is not defined
+2022-11-25T16:45:58.944Z [store-api] error  GET  - connect is not defined
+2022-11-25T16:48:22.438Z [store-api] error  GET  - connect is not defined
+2022-11-25T16:48:57.925Z [store-api] error  GET  - connect is not defined
+2022-11-25T16:49:22.167Z [store-api] error  GET  - connect is not defined
+2022-11-25T16:58:46.612Z [store-api] error  POST  - Name, CPF, Phone, Email e Addres são obrigatorios. 
+2022-11-25T16:59:11.869Z [store-api] info POST /client {"name":"Rosita Maria Bressiani Da Silva","telefone":"996082371","endereco":"47991239346","cpf":"712.605.879-91"}
+2022-11-25T17:00:26.582Z [store-api] error  POST  - dataCadastro is not defined
+2022-11-25T17:00:36.165Z [store-api] info POST /client {"name":"Rosita Maria Bressiani Da Silva","telefone":"996082371","endereco":"47991239346","cpf":"712.605.879-91","dataCadastro":"2022-11-25T17:00:36.162Z"}
+2022-11-25T17:01:48.353Z [store-api] error  POST  - notNull Violation: clientes.nome cannot be null
+2022-11-25T17:02:10.090Z [store-api] info POST /client {"nome":"Rosita Maria Bressiani Da Silva","telefone":"996082371","endereco":"47991239346","cpf":"712.605.879-91","dataCadastro":"2022-11-25T17:02:10.066Z"}
+2022-11-25T17:05:10.008Z [store-api] info POST /client {"nome":"Rosita Maria Bressiani Da Silva","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com","cpf":"712.605.879-91","dataCadastro":"2022-11-25T17:05:09.989Z"}
+2022-11-25T17:06:37.955Z [store-api] error  GET  - Client.findAllByPk is not a function
+2022-11-25T17:06:49.523Z [store-api] error  GET  - Argument passed to findByPk is invalid: [object Object]
+2022-11-25T17:08:51.568Z [store-api] error  DELETE  - Unknown column 'clientsId' in 'where clause'
+2022-11-25T17:10:28.104Z [store-api] error  DELETE  - Invalid status code: 1
+2022-11-25T17:11:24.644Z [store-api] info POST /client {"nome":"Rosita Maria Bressiani Da Silva","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com","cpf":"712.605.879-91","dataCadastro":"2022-11-25T17:11:24.570Z"}
+2022-11-25T17:11:32.760Z [store-api] info DELETE /client "2"
+2022-11-25T17:11:44.667Z [store-api] info DELETE /client "2"
+2022-11-25T17:11:51.592Z [store-api] info DELETE /client "3"
+2022-11-25T17:12:00.850Z [store-api] info POST /client {"nome":"Rosita Maria Bressiani Da Silva","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com","cpf":"712.605.879-91","dataCadastro":"2022-11-25T17:12:00.837Z"}
+2022-11-25T17:13:18.451Z [store-api] error  POST  - nome, CPF, telefone, endereco são obrigatorios. 
+2022-11-25T17:14:37.067Z [store-api] error  POST  - nome, CPF, telefone, endereco são obrigatorios. 
+2022-11-25T17:14:37.176Z [store-api] error  POST  - nome, CPF, telefone, endereco são obrigatorios. 
+2022-11-25T17:14:54.370Z [store-api] error  POST  - nome, CPF, telefone, endereco são obrigatorios. 
+2022-11-25T17:15:06.017Z [store-api] error  POST  - Validation error
+2022-11-25T17:15:46.885Z [store-api] error  POST  - Validation error
+2022-11-25T17:16:14.884Z [store-api] error  POST  - Validation error
+2022-11-25T17:16:19.109Z [store-api] error  POST  - Validation error
+2022-11-25T17:16:33.122Z [store-api] error  POST  - Validation error
+2022-11-25T17:17:15.068Z [store-api] error  POST  - Validation error
+2022-11-25T17:17:16.354Z [store-api] error  POST  - Validation error
+2022-11-25T17:17:34.310Z [store-api] error  PUT  - req.send is not a function
+2022-11-25T17:17:42.180Z [store-api] info PUT /client {"idClients":4,"nome":"Rosita Maria Bressiani Da Silva","cpf":"2","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com"}
+2022-11-25T17:17:52.529Z [store-api] error  PUT  - WHERE parameter "clientsId" has invalid "undefined" value
+2022-11-25T17:18:15.319Z [store-api] error  PUT  - Unknown column 'clientsId' in 'where clause'
+2022-11-25T17:22:05.336Z [store-api] info PUT /client {"idClients":4,"nome":"Rosita Maria Bressiani","cpf":"2","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com"}
+2022-11-25T17:23:08.857Z [store-api] info PUT /client {"idClients":4,"nome":"Rosita Maria Bressiani","cpf":"2","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com"}
+2022-11-25T17:24:40.876Z [store-api] info PUT /client {"idClients":4,"nome":"Rosita  Bressiani","cpf":"2","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com"}
+2022-11-25T17:25:05.060Z [store-api] info PUT /client {"idClients":4,"nome":"Rosita Maria Bressiani","cpf":"2","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com"}
+2022-11-25T17:40:08.129Z [store-api] info POST /client {"nome":"Rosita Maria Bressiani Da Silva","email":"ismaeljunior1508@gmail.com","senha":"151515","cpf":"712.605.879-91","telefone":"996082371","endereco":"47991239346","permicoes":2,"cargo":"vendedor","dataCadastro":"2022-11-25T17:40:08.058Z"}
+2022-11-25T17:40:49.169Z [store-api] info POST /usuario {"nome":"Rosita Maria Bressiani Da Silva","email":"ismaeljunior1508@gmail.com","senha":"151515","cpf":"712.605.879-91","telefone":"996082371","endereco":"47991239346","permicoes":2,"cargo":"vendedor","dataCadastro":"2022-11-25T17:40:49.031Z"}
+2022-11-25T17:41:45.529Z [store-api] error  GET  - Parametro ID obrigatorio
+2022-11-25T17:43:11.781Z [store-api] error  PUT  - nome, email, senha, cpf,  telefone,  endereco obrigatorios. 
+2022-11-25T17:43:22.097Z [store-api] info PUT /usuario {"idUsuario":1,"nome":"Rosita Maria Bressiani","email":"ismaeljunior1508@gmail.com","senha":"151515","cpf":"712.605.879-91","telefone":"996082371","endereco":"47991239346","permicoes":2,"cargo":"vendedor"}
+2022-11-25T17:43:22.110Z [store-api] info PUT /usuario {"idUsuario":1,"nome":"Rosita Maria Bressiani","email":"ismaeljunior1508@gmail.com","senha":"151515","cpf":"712.605.879-91","telefone":"996082371","endereco":"47991239346","permicoes":2,"cargo":"vendedor"}
+2022-11-25T17:43:33.264Z [store-api] info POST /usuario {"nome":"Rosita Maria Bressiani Da Silva","email":"ismaeljunior1508@gmail.com","senha":"151515","cpf":"712.605.879-91","telefone":"996082371","endereco":"47991239346","permicoes":2,"cargo":"vendedor","dataCadastro":"2022-11-25T17:43:33.256Z"}
+2022-11-25T17:43:36.436Z [store-api] info DELETE /client "2"
+2022-11-25T17:44:11.166Z [store-api] info DELETE /client "2"
+2022-11-25T17:44:33.546Z [store-api] info DELETE /usuario "2"

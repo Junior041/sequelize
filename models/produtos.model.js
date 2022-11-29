@@ -1,10 +1,11 @@
 import Sequelize from "sequelize";
 import db from "../repositories/db.js";
+import Fornecedores from "./fornecedores.model.js";
 
-const Usuarios = db.define(
-  "usuarios",
+const Produtos = db.define(
+  "produtos",
   {
-    idUsuario: {
+    idprodutos: {
       type: Sequelize.INTEGER,
       autoIncrement: true,
       allowNull: false,
@@ -14,15 +15,11 @@ const Usuarios = db.define(
       type: Sequelize.STRING,
       allowNull: false,
     },
-    email: {
-      type: Sequelize.STRING,
+    valor: {
+      type: Sequelize.DOUBLE,
       allowNull: false,
     },
-    senha: {
-      type: Sequelize.STRING,
-      allowNull: false,
-    },
-    cpf: {
+    descricao: {
       type: Sequelize.STRING,
       allowNull: false,
     },
@@ -30,21 +27,14 @@ const Usuarios = db.define(
       type: Sequelize.DATE,
       allowNull: false,
     },
-    telefone: {
-      type: Sequelize.STRING,
-    },
-    endereco: {
-      type: Sequelize.STRING,
-      allowNull: false,
-    },
-    permicoes: {
+    quantidade: {
       type: Sequelize.INTEGER,
       allowNull: false,
     },
-    cargo: {
-      type: Sequelize.STRING,
-    },
   },
+  { underscored: true }
 );
 
-export default Usuarios;
+Produtos.belongsTo(Fornecedores, { foreignKey: "idfornecedor" });
+
+export default Produtos;

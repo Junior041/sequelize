@@ -253,3 +253,60 @@
 2022-11-25T17:43:36.436Z [store-api] info DELETE /client "2"
 2022-11-25T17:44:11.166Z [store-api] info DELETE /client "2"
 2022-11-25T17:44:33.546Z [store-api] info DELETE /usuario "2"
+2022-11-25T23:08:21.960Z [store-api] info POST /client {"nome":"Rosita Maria Bressiani Da Silva","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com","cpf":"712.605.879-91","dataCadastro":"2022-11-25T23:08:21.925Z"}
+2022-11-25T23:09:18.405Z [store-api] info POST /usuario {"nome":"Rosita Maria Bressiani Da Silva","email":"ismaeljunior1508@gmail.com","senha":"151515","cpf":"712.605.879-91","telefone":"996082371","endereco":"47991239346","permicoes":2,"cargo":"vendedor","dataCadastro":"2022-11-25T23:09:18.378Z"}
+2022-11-25T23:09:44.636Z [store-api] info POST /usuario {"nome":"Ismael Junior","email":"ismaeljunior1508@gmail.com","senha":"151515","cpf":"712.605.879-91","telefone":"996082371","endereco":"rua daniel barni n 40","permicoes":2,"cargo":"gerente","dataCadastro":"2022-11-25T23:09:44.602Z"}
+2022-11-26T01:48:49.248Z [store-api] error  PUT  - nome, email, senha, cpf,  telefone,  endereco obrigatorios. 
+2022-11-26T01:50:14.913Z [store-api] error  PUT  - nome, email, senha, cpf,  telefone,  endereco obrigatorios. 
+2022-11-26T01:50:51.982Z [store-api] info PUT /client {"idClients":4,"nome":"Rosita Maria Bressiani","cpf":"2","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com"}
+2022-11-26T01:51:03.779Z [store-api] info PUT /client {"idClients":1,"nome":"Rosita Maria Bressiani","cpf":"2","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com"}
+2022-11-26T01:51:11.675Z [store-api] info DELETE /client "1"
+2022-11-26T01:51:17.287Z [store-api] info POST /client {"nome":"Rosita Maria Bressiani Da Silva","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com","cpf":"712.605.879-91","dataCadastro":"2022-11-26T01:51:17.248Z"}
+2022-11-26T01:54:50.481Z [store-api] info PUT /client {"idClients":100,"nome":"Rosita Maria Bressiani","cpf":"2","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com"}
+2022-11-26T01:56:06.626Z [store-api] error  PUT  - next is not a function
+2022-11-26T01:56:28.728Z [store-api] error  PUT  - next is not a function
+2022-11-26T01:57:15.552Z [store-api] error  PUT  - next is not a function
+2022-11-26T02:02:35.148Z [store-api] error  PUT  - idClients nao existe
+2022-11-26T02:02:39.742Z [store-api] error  PUT  - idClients nao existe
+2022-11-26T02:02:45.753Z [store-api] info PUT /client {"idClients":2,"nome":"Rosita Maria Bressiani","cpf":"2","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com"}
+2022-11-26T02:18:28.347Z [store-api] error  POST  - Unknown column 'data_cadastro' in 'field list'
+2022-11-26T02:30:05.096Z [store-api] error  POST  - Unknown column 'email' in 'field list'
+2022-11-26T02:31:12.329Z [store-api] info POST /client {"nome":"Rosita Maria Bressiani Da Silva","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com","cpf":"712.605.879-91","dataCadastro":"2022-11-26T02:31:12.302Z"}
+2022-11-26T02:31:22.423Z [store-api] info POST /usuario {"nome":"Ismael Junior","email":"ismaeljunior1508@gmail.com","senha":"151515","cpf":"712.605.879-91","telefone":"996082371","endereco":"rua daniel barni n 40","permicoes":2,"cargo":"gerente","dataCadastro":"2022-11-26T02:31:22.384Z"}
+2022-11-26T02:37:57.935Z [store-api] error  POST  - nome, valor, descricao, idfornecedor, quantidade obrigatorios. 
+2022-11-26T02:38:27.310Z [store-api] error  POST  - Field 'idfornecedor' doesn't have a default value
+2022-11-26T02:45:25.143Z [store-api] info POST /client {"nome":"Rosita Maria Bressiani Da Silva","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com","cpf":"712.605.879-91","dataCadastro":"2022-11-26T02:45:25.118Z"}
+2022-11-26T02:45:29.680Z [store-api] info POST /usuario {"nome":"Ismael Junior","email":"ismaeljunior1508@gmail.com","senha":"151515","cpf":"712.605.879-91","telefone":"996082371","endereco":"rua daniel barni n 40","permicoes":2,"cargo":"gerente","dataCadastro":"2022-11-26T02:45:29.664Z"}
+2022-11-26T02:45:38.188Z [store-api] info POST /fornecedores {"nome":"Samsung","cnpj":"47388230000133","telefone":"47991239346","endereco":"Rua danmiel barni, n 40","data":"2022-11-26T02:45:38.165Z","dataCadastro":"2022-11-26T02:45:38.165Z"}
+2022-11-26T02:46:21.146Z [store-api] error  GET  - Parametro ID obrigatorio
+2022-11-26T02:46:44.149Z [store-api] error  GET  - Parametro ID obrigatorio
+2022-11-26T02:47:34.684Z [store-api] error  GET  - Parametro ID obrigatorio
+2022-11-26T02:47:41.321Z [store-api] info POST /fornecedores {"nome":"Samsung","cnpj":"47388230000133","telefone":"47991239346","endereco":"Rua danmiel barni, n 40","data":"2022-11-26T02:47:41.299Z","dataCadastro":"2022-11-26T02:47:41.299Z"}
+2022-11-26T02:48:37.683Z [store-api] error  GET  - Parametro ID obrigatorio
+2022-11-26T02:51:02.313Z [store-api] error  GET  - Parametro ID obrigatorio
+2022-11-26T02:51:57.792Z [store-api] error  GET  - Parametro ID obrigatorio
+2022-11-26T02:52:43.314Z [store-api] error  GET  - Parametro ID obrigatorio
+2022-11-26T02:53:13.554Z [store-api] error  GET  - Parametro ID obrigatorio
+2022-11-27T02:02:42.106Z [store-api] error  GET  - Parametro ID obrigatorio
+2022-11-27T02:02:42.941Z [store-api] error  GET  - Parametro ID obrigatorio
+2022-11-27T02:05:19.534Z [store-api] error  PUT  - idfornecedor, cnpj, telefone e endereco sao obrigatorios.
+2022-11-27T02:05:50.437Z [store-api] error  PUT  - idfornecedor, cnpj, telefone e endereco sao obrigatorios.
+2022-11-27T02:06:15.831Z [store-api] error  PUT  - idfornecedor, cnpj, telefone e endereco sao obrigatorios.
+2022-11-27T02:06:22.431Z [store-api] error  PUT  - err is not a constructor
+2022-11-27T02:06:46.043Z [store-api] error  PUT  - Error: WHERE parameter "idFornecedoress" has invalid "undefined" value
+2022-11-27T02:07:10.144Z [store-api] error  PUT  - Error: WHERE parameter "idFornecedoress" has invalid "undefined" value
+2022-11-27T02:07:38.109Z [store-api] error  PUT  - Error: WHERE parameter "idFornecedores" has invalid "undefined" value
+2022-11-27T02:08:14.895Z [store-api] error  PUT  - Error: WHERE parameter "idFornecedores" has invalid "undefined" value
+2022-11-27T02:08:41.360Z [store-api] error  PUT  - Error: WHERE parameter "idFornecedores" has invalid "undefined" value
+2022-11-27T02:09:55.767Z [store-api] info PUT /fornecedores {"idfornecedor":2,"nome":"TEste","cnpj":"47388230000133","telefone":"47991239346","endereco":"Rua danmiel barni, n 40"}
+2022-11-27T02:10:20.212Z [store-api] error  PUT  - nome, email, senha, cpf,  telefone,  endereco obrigatorios. 
+2022-11-27T02:11:01.954Z [store-api] info PUT /usuario {"idUsuario":1,"nome":"Ismael","email":"ismaeljunior1508@gmail.com","senha":"151515","cpf":"712.605.879-91","telefone":"996082371","endereco":"rua daniel barni n 40","permicoes":2,"cargo":"gerente"}
+2022-11-27T02:11:14.005Z [store-api] error  PUT  - idClients nao existe
+2022-11-27T02:11:19.036Z [store-api] info PUT /client {"idClients":1,"nome":"Rosita Maria Bressiani","cpf":"2","telefone":"996082371","endereco":"47991239346","email":"ismaeljunior1508@gmail.com"}
+2022-11-27T02:15:54.311Z [store-api] error  POST  - valor, promocao, idProduto, idCliente, idUsuario obrigatorios. 
+2022-11-27T15:36:09.887Z [store-api] error  GET  - Parametro ID obrigatorio
+2022-11-27T15:36:14.913Z [store-api] error  GET  - connect ECONNREFUSED 127.0.0.1:3306
+2022-11-27T15:36:21.546Z [store-api] error  GET  - connect ECONNREFUSED 127.0.0.1:3306
+2022-11-27T15:36:35.438Z [store-api] error  GET  - connect ECONNREFUSED 127.0.0.1:3306
+2022-11-27T15:36:46.053Z [store-api] error  GET  - connect ECONNREFUSED 127.0.0.1:3306
+2022-11-27T15:36:52.229Z [store-api] error  GET  - connect ECONNREFUSED 127.0.0.1:3306

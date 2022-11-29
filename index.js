@@ -3,6 +3,9 @@ import cors from "cors";
 import winston from "winston";
 import clientRouter from "./routes/client.routes.js";
 import usuarioRouter from "./routes/usuario.routes.js";
+import fornecedoresRouter from "./routes/fornecedores.routes.js";
+import produtosRouter from "./routes/produtos.routes.js";
+import vendasRouter from "./routes/vendas.routes.js";
 
 const { combine, timestamp, label, printf } = winston.format;
 
@@ -22,8 +25,15 @@ global.logger = winston.createLogger({
 const app = express();
 app.use(cors());
 app.use(express.json());
-app.use("/client", clientRouter);
+
+
 app.use("/usuarios", usuarioRouter);
+app.use("/clientes", clientRouter);
+app.use("/fornecedores", fornecedoresRouter);
+app.use("/produtos", produtosRouter);
+app.use("/vendas", vendasRouter);
+
+
 app.use((err, req, res, next) => {
     logger.error(` ${req.method} ${req.baseUrl} - ${err.message}`)
     res.status(400).send({error: err.message})

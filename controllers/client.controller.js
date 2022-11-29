@@ -1,4 +1,5 @@
 import ClientService from "../services/client.service.js";
+import ClientRepository from "../repositories/client.repository.js";
 
 async function createClient(req, res, next) {
   try {
@@ -41,13 +42,12 @@ async function getClient(req, res, next) {
 
 async function deleteClient(req, res, next) {
   try {
-
     const id = req.params.idClients;
     if (!id) {
       throw new Error("Parametro ID obrigadotio");
     }
     await ClientService.deleteClient(id);
-    res.end()
+    res.end();
     global.logger.info(`DELETE /client ${JSON.stringify(id)}`);
   } catch (err) {
     next(err);
@@ -55,8 +55,11 @@ async function deleteClient(req, res, next) {
 }
 
 async function updateClient(req, res, next) {
+  let client = req.body;
   try {
-    let client = req.body;
+    if (!(await ClientRepository.getClient(client.idClients))) {
+      throw new Error("idClients nao existe");
+    }
     if (
       !client.idClients ||
       !client.nome ||
@@ -67,11 +70,13 @@ async function updateClient(req, res, next) {
     ) {
       throw new Error("ID,Name, CPF, Phone, Email e Addres são obrigatorios. ");
     }
-    await ClientService.updateClient(client).then(()=>{
-      res.send(client);
-    }).catch(err => {
-      throw new err
-    })
+    await ClientService.updateClient(client)
+      .then(() => {
+        res.send(client);
+      })
+      .catch((err) => {
+        throw new err();
+      });
     global.logger.info(`PUT /client ${JSON.stringify(client)}`);
   } catch (err) {
     next(err);

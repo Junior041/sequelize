@@ -1,5 +1,4 @@
 import UsuarioService from "../services/usuario.service.js";
-
 async function createUsuario(req, res, next) {
   try {
     let usuario = req.body;
@@ -56,8 +55,8 @@ async function deleteUsuario(req, res, next) {
 }
 
 async function updateUsuario(req, res, next) {
-  try {
-    let usuario = req.body;
+  try{
+  let usuario = req.body;
     if (
       !usuario.idUsuario ||
       !usuario.nome ||

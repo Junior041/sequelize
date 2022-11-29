@@ -11,7 +11,7 @@ async function getUsuario(usuario) {
   return await UsuarioRepository.getUsuario(usuario);
 }
 async function deleteUsuario(usuario) {
-  return await UsuarioRepository.deleteUsuario(usuario);
+  await UsuarioRepository.deleteUsuario(usuario);
 }
 async function updateUsuario(usuario) {
   return await UsuarioRepository.updateUsuario(usuario);
